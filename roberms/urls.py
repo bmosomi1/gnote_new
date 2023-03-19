@@ -22,7 +22,7 @@ urlpatterns = [
     path('roberms/super/admin/', admin.site.urls),
 
     path('', include('sms.urls')),
-    path('water/', include('water.urls')),
+   # path('water/', include('water.urls')),
     path('sms/v1/', include('sms_api.urls')),
     path('roberms/admin/', include('roberms_admin.urls')),
     path('roberms/salesperson/', include('salesperson.urls')),
